@@ -1,15 +1,4 @@
-Welcome to your new dbt project!
+# **ELT Project with dbt and Snowflake**  
+This mini-project uses **Snowflake as the data warehouse** to store retail shop data. The **EL (Extract-Load)** process covers data ingestion into Snowflake.
 
-### Using the starter project
-
-Try running the following commands:
-- dbt run
-- dbt test
-
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+For the **T (Transform)** stage, **dbt (data build tool)** handles all transformations, making the data ready for analysis in a BI tool.
